@@ -1,0 +1,292 @@
+#Profiles
+############################
+profile.no_effects=Sin efectos
+profile.shadowless_low=Bajo sin sombras
+profile.shadowless_medium=Medio sin sombras
+profile.shadowless_high=Alto sin sombras
+profile.low=Bajo
+profile.medium=Medio
+profile.high=Alto
+profile.extreme=Extremo
+profile.extremeplus=Extremo+
+
+profile.comment=Los perfiles "sin sombras" están diseñados para máquinas de bajo rendimiento, sin tener en cuenta las sombras. Los perfiles tradicionales añaden poco a poco sombras de mayor calidad y efectos pesados más avanzados. Experimenta con las opciones disponibles y encuentra la mejor combinación para ti.
+
+#About
+#############################
+option.ACERCADE=MakeUp
+option.ACERCADE.comment=¡Gracias por usar este shader! :). Establezca los controles de calidad nativos de Optifine en los valores normales o predeterminados para obtener una mejor calidad.
+value.ACERCADE.0=v.9.1c
+
+#Options
+#############################
+option.SHADOW_CASTING=Sombras
+
+option.SHADOW_DISTANCE_SLIDER=Distancia de sombras
+value.SHADOW_DISTANCE_SLIDER.0=Corta
+value.SHADOW_DISTANCE_SLIDER.1=Media
+value.SHADOW_DISTANCE_SLIDER.2=Lejana
+
+option.SHADOW_QTY_SLIDER=Calidad de sombras
+value.SHADOW_QTY_SLIDER.0=Sin sombras
+value.SHADOW_QTY_SLIDER.1=Bajo
+value.SHADOW_QTY_SLIDER.2=Medio
+value.SHADOW_QTY_SLIDER.3=Alto
+
+option.REFLECTION_SLIDER=Reflejos
+value.REFLECTION_SLIDER.0=Desactivados
+value.REFLECTION_SLIDER.1=Imagen volteada
+value.REFLECTION_SLIDER.2=Marcha de rayos (Raymarching)
+
+option.SHADOW_TYPE=Tipo de sombras
+value.SHADOW_TYPE.0=Simple
+value.SHADOW_TYPE.1=Filtrado
+
+option.SHADOW_BLUR=Intensidad del desenfoque de sombra
+
+option.COLORED_SHADOW=Sombras coloreadas
+
+option.VOL_LIGHT=Rayos solares
+value.VOL_LIGHT.0=Desactivados
+value.VOL_LIGHT.1=Basados en profundidad
+value.VOL_LIGHT.2=Volumétricos
+
+option.DOF=Profundidad de campo
+
+option.DOF_STRENGTH=Fuerza de DoF (Profunidad de campo)
+
+option.DOF_SAMPLES_FACTOR=Factor de muestras DoF
+
+option.AO=Oclusión ambiental
+value.AO.0=Desactivada
+value.AO.1=Activada
+
+option.AOSTEPS=Pares de muestras de AO (Oclusión ambiental)
+
+option.AO_STRENGTH=Fuerza de AO (Oclusión ambiental)
+
+option.AA_TYPE=Muestreo temporal
+value.AA_TYPE.0=Desactivado
+value.AA_TYPE.1=Removedor de ruido (Denoise)
+value.AA_TYPE.2=TAA
+value.AA_TYPE.3=TAA afilado
+
+option.MOTION_BLUR=Desenfoque de movimiento
+option.MOTION_BLUR_STRENGTH=Fuerza de Desenfoque de movimiento
+option.MOTION_BLUR_SAMPLES=Muestras de desenfoque de movimiento
+
+option.VANILLA_WATER=Agua de Vanilla
+
+option.WATER_TEXTURE=Textura de agua
+value.WATER_TEXTURE.0=No
+value.WATER_TEXTURE.1=Sí
+
+option.WATER_COLOR_SOURCE=Color del agua
+value.WATER_COLOR_SOURCE.0=Esquema de sombreado
+value.WATER_COLOR_SOURCE.1=Paquete de recursos
+
+option.REFLECTION=Reflejos
+value.REFLECTION.0=Desactivados
+value.REFLECTION.1=Activados
+
+option.REFRACTION=Refracción
+value.REFRACTION.0=Desactivada
+value.REFRACTION.1=Activada
+
+option.SSR_TYPE=Tipo de reflejos
+value.SSR_TYPE.0=Flipped image
+value.SSR_TYPE.1=Marcha de rayos (Raymarching)
+
+option.SUN_REFLECTION=Reflejos del sol
+value.SUN_REFLECTION.0=Desactivados
+value.SUN_REFLECTION.1=Activados
+
+option.CLOUD_REFLECTION=Reflejos de nubes volumétricas
+
+option.WAVING=Plantas ondulantes
+value.WAVING.0=No
+value.WAVING.1=Sí
+
+option.CHROMA_ABER=Aberración cromática
+value.CHROMA_ABER.0=No
+value.CHROMA_ABER.1=Sí
+
+option.CHROMA_ABER_STRENGTH=Fuerza de aberración cromática
+
+option.WATER_ABSORPTION=Index de absorción de agua
+
+option.WATER_TURBULENCE=Fuerza de olas
+value.WATER_TURBULENCE.7.0=Muy baja
+value.WATER_TURBULENCE.1.75=Baja
+value.WATER_TURBULENCE.0.9=Media
+value.WATER_TURBULENCE.0.5=Alta
+
+option.COLOR_SCHEME=Combinación de colores
+value.COLOR_SCHEME.0=Ethereal
+value.COLOR_SCHEME.1=New shoka
+value.COLOR_SCHEME.2=Shoka
+value.COLOR_SCHEME.3=Legacy
+value.COLOR_SCHEME.4=Capitán
+value.COLOR_SCHEME.5=Psicodélico
+value.COLOR_SCHEME.6=Cocoa
+value.COLOR_SCHEME.7=Testigo
+value.COLOR_SCHEME.99=Customizado
+
+option.LIGHT_SUNSET_COLOR_R=Luz del atardecer R
+option.LIGHT_SUNSET_COLOR_G=Luz del atardecer G
+option.LIGHT_SUNSET_COLOR_B=Luz del atardecer B
+
+option.LIGHT_DAY_COLOR_R=Luz diurna R
+option.LIGHT_DAY_COLOR_G=Luz diurna G
+option.LIGHT_DAY_COLOR_B=Luz diurna B
+
+option.LIGHT_NIGHT_COLOR_R=Luz nocturna R
+option.LIGHT_NIGHT_COLOR_G=Luz nocturna G
+option.LIGHT_NIGHT_COLOR_B=Luz nocturna B
+
+option.ZENITH_SUNSET_COLOR_R=Puesta de sol cenital R
+option.ZENITH_SUNSET_COLOR_G=Puesta de sol cenital G
+option.ZENITH_SUNSET_COLOR_B=Puesta de sol cenital B
+
+option.ZENITH_DAY_COLOR_R=Día cenital R
+option.ZENITH_DAY_COLOR_G=Día cenital G
+option.ZENITH_DAY_COLOR_B=Día cenital B
+
+option.ZENITH_NIGHT_COLOR_R=Noche cenital R
+option.ZENITH_NIGHT_COLOR_G=Noche cenital G
+option.ZENITH_NIGHT_COLOR_B=Noche cenital B
+
+option.HORIZON_SUNSET_COLOR_R=Atardecer del horizonte R
+option.HORIZON_SUNSET_COLOR_G=Atardecer del horizonte G
+option.HORIZON_SUNSET_COLOR_B=Atardecer del horizonte B
+
+option.HORIZON_DAY_COLOR_R=Día del horizonte R
+option.HORIZON_DAY_COLOR_G=Día del horizonte G
+option.HORIZON_DAY_COLOR_B=Día del horizonte B
+
+option.HORIZON_NIGHT_COLOR_R=Noche del horizonte R
+option.HORIZON_NIGHT_COLOR_G=Noche del horizonte G
+option.HORIZON_NIGHT_COLOR_B=Noche del horizonte B
+
+option.WATER_COLOR_R=Agua R
+option.WATER_COLOR_G=Agua G
+option.WATER_COLOR_B=Agua B
+
+option.NV_COLOR_R=Visión nocturna R multiplicador
+option.NV_COLOR_G=Visión nocturna G multiplicador
+option.NV_COLOR_B=Visión nocturna B multiplicador
+
+option.OMNI_TINT_CUSTOM=Tinte Omni
+
+option.AVOID_DARK_LEVEL=Brillo de cuevas
+
+option.NIGHT_BRIGHT=Brillo de noche
+
+option.V_CLOUDS=Nubes
+value.V_CLOUDS.0=Vanilla
+value.V_CLOUDS.1=Volumétricas estáticas
+value.V_CLOUDS.2=Volumétricas dinámicas
+
+option.CLOUD_VOL_STYLE=Estilo de las nubes volumétricas
+value.CLOUD_VOL_STYLE.0=Natural
+value.CLOUD_VOL_STYLE.1=En forma de caja
+
+option.CLOUD_SPEED=Velocidad de nubes
+value.CLOUD_SPEED.0=Normal
+value.CLOUD_SPEED.1=Lapso temporal 1
+value.CLOUD_SPEED.2=Lapso temporal 2
+
+option.END_CLOUDS=Nubes en el end
+
+option.CLOUD_STEPS_AVG=Muestras de nubes
+
+option.BLOOM=Floración
+
+option.COLOR_BLINDNESS=Daltonismo
+
+option.COLOR_BLIND_MODE=Tipo de daltonismo
+value.COLOR_BLIND_MODE.0=Protanopia
+value.COLOR_BLIND_MODE.1=Deuteranopia
+value.COLOR_BLIND_MODE.2=Tritanopia
+
+option.DEBUG_MODE=Modo debug
+
+option.BLOOM_SAMPLES=Pares de muestras de floración
+
+option.BLACK_ENTITY_FIX=BUGFIX de entidades negras
+value.BLACK_ENTITY_FIX.0=Desactivado
+value.BLACK_ENTITY_FIX.1=Activado
+
+option.FOG_ACTIVE=Niebla activada
+
+option.FOG_ADJUST=Intensidad de niebla
+value.FOG_ADJUST.20.0=Sin niebla
+value.FOG_ADJUST.10.0=Ultra baja
+value.FOG_ADJUST.8.0=Muy baja
+value.FOG_ADJUST.4.0=Baja
+value.FOG_ADJUST.2.0=Media
+value.FOG_ADJUST.1.0=Alta
+
+option.NETHER_FOG_DISTANCE=Distancia de niebla del nether
+value.NETHER_FOG_DISTANCE.0=Distancia de renderizado
+value.NETHER_FOG_DISTANCE.1=Vanilla
+
+option.BLOCKLIGHT_TEMP=Temperatura de luz de bloque
+value.BLOCKLIGHT_TEMP.0=Mas cálido
+value.BLOCKLIGHT_TEMP.1=Cálido
+value.BLOCKLIGHT_TEMP.2=Amarillo
+value.BLOCKLIGHT_TEMP.3=Amarillo pálido
+value.BLOCKLIGHT_TEMP.4=Luz blanca
+
+option.sunPathRotation=Angulo del sol
+
+option.USE_BASIC_SH=Sombreado básico de dimensiones personalizadas
+
+option.MATERIAL_GLOSS=Brillo de materiales
+
+option.DYN_HAND_LIGHT=Luz dinámica falsa
+
+#Screens
+screen.ADVANCED_SCREEN=Opciones avanzadas
+screen.ADVANCED_SCREEN.comment=Configurar opciones avanzadas.
+
+screen.COMPATIBILITY_SCREEN=Compatibilidad
+screen.COMPATIBILITY_SCREEN.comment=Configurar opciones de compatibilidad.
+
+screen.SHADOWS_SCREEN=Sombras
+screen.SHADOWS_SCREEN.comment=Configurar opciones de sombras.
+
+screen.DOF_SCREEN=Profundidad de campo
+screen.DOF_SCREEN.comment=Configurar opciones de profundidad de campo.
+
+screen.AO_SCREEN=Oclusión ambiental
+screen.AO_SCREEN.comment=Configurar opciones de oclusión ambiental.
+
+screen.WATER_SCREEN=Agua
+screen.WATER_SCREEN.comment=Configurar opciones del agua.
+
+screen.POST_SCREEN= Post-procesado
+screen.POST_SCREEN.comment=Configurar opciones de post-procesado.
+
+screen.LIGHT_SCREEN=Luz
+screen.LIGHT_SCREEN.comment=Configurar opciones de luz.
+
+screen.CLOUDS_SCREEN=Sol y nubes
+screen.CLOUDS_SCREEN.comment=Configurar opciones de nubes.
+
+screen.FOG_SCREEN=Niebla
+screen.FOG_SCREEN.comment=Configurar opciones de nubes.
+
+screen.MOTION_BLUR_SCREEN=Desenfoque de movimiento
+screen.MOTION_BLUR_SCREEN.comment=Configurar opciones de desenfoque de movimiento.
+
+screen.ACCESIBILITY_SCREEN=Accesibilidad
+screen.ACCESIBILITY_SCREEN.comment=Configurar opciones de accesibilidad
+
+screen.CUSTOM_COLORS_SCREEN=Colores customizados
+screen.CUSTOM_COLORS_SCREEN.comment=Configurar colores customizados
+screen.CUSTOM_COLORS_DAY=Colores customizados del día
+screen.CUSTOM_COLORS_SUNSET=Colores customizados del atardecer/amanecer
+screen.CUSTOM_COLORS_NIGHT=Colores customizados de la noche
+screen.CUSTOM_COLORS_WATER=Colores customizados del agua
+screen.CUSTOM_COLORS_NV=Colores customizados de visión nocturna
